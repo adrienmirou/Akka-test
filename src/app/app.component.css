@@ -1,0 +1,9 @@
+.spacer_gauche_icone {
+  flex: 1 1 auto;
+}
+
+.icon-akka {
+  transform: scale(7);
+  margin-top: 66px;
+  margin-left: 80px;
+}

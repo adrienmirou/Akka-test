@@ -1,0 +1,45 @@
+<mat-toolbar color="primary" role="heading" class="barOutils">
+  <div class="icon-akka">
+    <mat-icon svgIcon="akka-logo"></mat-icon>
+  </div>
+  <span class="spacer_gauche_icone"></span>
+  <button mat-icon-button class="example-icon" matTooltip="Menu" (click)="menu.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-drawer-container class="containerPage">
+  <mat-drawer-content class="mainPage">
+    Contenu principal
+  </mat-drawer-content>
+  <mat-drawer #menu class="menuLateral" mode="side" position="end">
+    <mat-nav-list>
+      <h1 mat-list-item>Menu latéral</h1>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+      <p mat-list-item>test</p>
+   </mat-nav-list>
+  </mat-drawer>
+</mat-drawer-container>
+
+
